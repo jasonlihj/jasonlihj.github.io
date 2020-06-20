@@ -57,11 +57,10 @@ header{
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
-    z-index: -1;
 }
 
 .landing-text h1{
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: cursive;
     background: linear-gradient(to right, #D33606,#290256);
     -webkit-background-clip: text;
