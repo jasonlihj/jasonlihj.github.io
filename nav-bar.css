@@ -9,24 +9,12 @@
     --transition-speed: 600ms;
 } 
 
-body {
-  color: black;
-  background-color: white;
-  margin: 0;
-  padding: 0;
-  
-}
 
 nav::-webkit-scrollbar, body::-webkit-scrollbar{
   width: 0rem;
   height: 0rem;
 }
 
-
-main {
-  margin-left: 5rem;
-  padding: 1rem;
-}
 
 .navbar {
   position: fixed;
