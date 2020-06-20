@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
 :root {
-  font-size: 50px;
-  font-family: 'Open Sans';
-  --text-primary: #b6b6b6;
-  --text-secondary: #ececec;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
-  --transition-speed: 600ms;
-}
+    font-size: 25px;
+    font-family: "piedra", sans-serif;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
+} 
 
 body {
   color: black;
