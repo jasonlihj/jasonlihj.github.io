@@ -58,18 +58,8 @@
   }
 
   .section-heading{
+    margin-top: 7rem;
     text-align: center;
-    margin-bottom: 10rem;
-  }
-
-  .section-heading h1::before,.section-heading h1::after{
-    content: '';
-    position: absolute;
-    bottom: -.5rem;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.75
-    );
     
   }
 
@@ -129,13 +119,20 @@
   section{
     padding: 1rem;
     margin-left: 5rem;
+    margin-bottom: 22rem;
+  }
+
+  section.contact{
+    padding: 1rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
   }
   /*end header*/
 
 
   /*about start*/
   .about .container{
-    margin-top: 20rem;
+    margin-top: 12rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,6 +164,137 @@
       flex:1;
   }
   /*about end*/
+
+  /*skills start*/
+  .my-skills{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+    grid-gap: 2.5rem;
+    text-align: center;
+  }
+
+  .skill{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+  }
+
+  .skill h1{
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin:2rem -2px 2rem 0;
+  }
+
+  .icon-container{
+      width: 10rem;
+      height: 10rem;
+      border: 3px solid #ffe838;
+      background-color: #fd57bf;
+      margin-bottom: 2rem;
+      display: flex;
+      transform: rotate(45deg);
+  }
+
+  .icon-container i{
+      color: #ffe838;
+      font-size: 5rem;
+      margin: auto;
+      transform: rotate(-45deg);
+  }
+
+  /*skills end*/
+
+  /*portfolio start*/
+  .portfolio-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+
+  .portfolio-item:last-child{
+      margin-bottom: 0;
+  }
+
+  .portfolio-description h6{
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      font-weight: 300;
+      opacity: 0.3;
+  }
+
+  .portfolio-description h1{
+      font-size: 3rem;
+      font-weight: 300;
+      margin: 1rem 0
+  }
+
+  .portfolio-description .cta{
+      display: inline-block;
+      margin-top: 2.5rem;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      color: #3883ff;
+      transition: color 650ms;
+  }
+
+  .portfolio-description .cta:hover{
+      color: #2f67cd;
+  }
+  /*portfolio end*/
+
+  /*contact start*/
+
+
+  form{
+      width: 70%;
+      margin-left:12rem;
+      margin-bottom: 0rem;
+  }
+
+  form label{
+      font-size: 1.5rem;
+  }
+
+  input, select, textarea{
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 10px;
+      border: none;
+      outline-color: orange;
+  }
+
+  input[type = "submit"] {
+      width: initial;
+      background-color: blue;
+      color : #eee;
+      padding: 1rem, 2rem;
+      border-radius: .8rem;
+      cursor: pointer;
+      transition: background-color 650ms;
+  }
+
+  input[type="submit"]:hover{
+      color: #221e3f;
+      background-color: #ffe838;
+  }
+  /*contact end*/
+
+  /*Start footer*/
+  .copyright{
+    width: 100%;
+    text-align: center;
+    background-color: 2rem 0;
+    position: relative;
+  }
+
+  .copyright p{
+    font-size: 1.4rem;
+  }
+  /*End footer*/
   
   /*Nav bar start */
   nav::-webkit-scrollbar, body::-webkit-scrollbar{
