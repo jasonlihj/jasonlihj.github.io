@@ -120,6 +120,7 @@
     padding: 1rem;
     margin-left: 5rem;
     margin-bottom: 22rem;
+    padding-right: 5rem;
   }
 
   section.contact{
@@ -411,7 +412,12 @@
   /* Small screens */
   @media only screen and (max-width: 600px) {
     :root {
+      margin: 0;
       font-size: 16px;
+    }
+
+    header {
+      margin: 0;
     }
 
     .navbar {
@@ -431,24 +437,49 @@
     .nav-link {
       justify-content: center;
     }
-  
-    header {
-      margin: 0;
-    }
     
 
     .landing-text h1{
       font-size: 7rem;
-      font-family: cursive;
-      background: linear-gradient(to right, #D33606,#290256);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      user-select: none;
     }
 
     .landing-text h6{
       font-size: 1.5rem;
-      font-weight: 300;
+    }
+
+    .about-heading h1{
+      font-size: 5rem;
+    }
+    .about-detail{
+      flex-direction: initial;
+    }
+    .about-details li{
+      margin: 0;
+    }
+
+    .section-heading.skills{
+      margin-left: 0rem;
+    }
+
+    .skills{
+      margin-left: -4.7rem;
+    }
+
+
+    section{
+      margin:0;
+    }
+
+    .section-heading h1{
+      margin:0;
+    }
+
+    .contact{
+      margin: 0;
+    }
+
+    form{
+      margin: 0;
     }
 
     
