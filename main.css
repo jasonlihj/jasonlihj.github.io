@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
 
   :root {
-    font-size: 20px;
+    font-size: 16px;
     font-family: "piedra", sans-serif;
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
